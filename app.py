@@ -9,7 +9,7 @@ choice_options=st.sidebar.selectbox("",('Home','Start webcam','About'))
 
 if choice_options=="Home":
     st.title('👨Face Emotion Recognition using Live Web Camera👩')
-    image = Image.open('data/face.jpeg')
+    image = Image.open('data/future.jpg')
     st.image(image)
     st.sidebar.subheader("""💎 Face Emotion Recognition is a system used to detect the emotions from face.""")
     st.sidebar.subheader("""💎 Nowadays it is widely used applications.Eg: In zoom meeting we can able to detect the student emotion.""")
@@ -22,38 +22,25 @@ if choice_options=="About":
     st.title('Project Members')
     col1, col2= st.columns(2)
     with col1:
-        image_1= Image.open('data/ape.png')
-        st.subheader("Ashik Kumar")
+        image_1= Image.open('data/pranay.png')
+        st.subheader("Pranaysagar Bhelave")
         st.image(image_1)
-        st.write("Email:ashikkumar491@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/ashik-kumar-94a06a207)""")
+        st.write("Email:pranaysagarbhelave@gmail.com")
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/pranaysagar-bhelave-a88027b0)""")
     with col2:
-        image_2 = Image.open('data/jai.png')
-        st.subheader("Jai Harish S")
+        image_2 = Image.open('data/kunal.png')
+        st.subheader("Kunal Tembhare")
         st.image(image_2)
-        st.write("Email:jaiharishs361@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/jai-harish-s-64b1b01ab)""")
+        st.write("Email:kunaltembhare003@gmail.com")
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/kunal-tembhare-b3727a9a)""")
 
     col1, col2= st.columns(2)
     with col1:
-        image_3 = Image.open('data/pranil.png')
-        st.subheader("Pranil Satish Thorat")
+        image_3 = Image.open('data/ankush.png')
+        st.subheader("Ankush Bhandarkar")
         st.image(image_3)
-        st.write("Email:pranilthorat@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/pranil-thorat-834361216)""")
-    with col2:
-        image_4 = Image.open('data/saransh.png')
-        st.subheader("Saransh Srivastava")
-        st.image(image_4)
-        st.write("Email:saranshoffice@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/saranshsrivastava13)""")
-    col1, col2= st.columns(2)
-    with col1:
-        image_5 = Image.open('data/akasl.png')
-        st.subheader("Bhaskar subanji")
-        st.image(image_5)
-        st.write("Email:bysubanji@gmail.com")
-        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/bysubanji)""")
+        st.write("Email:ankushbhandarkar397@gmail.com")
+        st.markdown("""[LinkedIn profile](https://www.linkedin.com/in/ankush-bhandarkar-b144a768)""")
     with col2:
         pass
 
