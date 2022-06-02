@@ -6,7 +6,7 @@ from streamlit_webrtc import VideoTransformerBase
 
 # load model
 emotion_dict = {0:'angry', 1 :'disgust', 2: 'fear', 3:'happy', 4: 'sad',5:'suprise',6:'neutral'}
-classifier = load_model('model/model_optimal.h5')
+classifier = load_model('model_optimal.h5')
 
 try:
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_frontalface_default.xml')
