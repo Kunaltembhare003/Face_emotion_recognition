@@ -1,0 +1,4 @@
+gcloud builds submit --tag gcr.io/oval-heuristic-351617/face_emotion_detection:1.4  --project=oval-heuristic-351617
+
+gcloud run deploy --image gcr.io/oval-heuristic-351617/face_emotion_detection:1.4 --platform managed  --project=oval-heuristic-351617 --allow-unauthenticated --port 9090
+
